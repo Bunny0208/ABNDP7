@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ll1_padding">16dp</dimen>
+    <dimen name="article_width">60dp</dimen>
+    <dimen name="article_height">40dp</dimen>
+    <dimen name="article_padding">4dp</dimen>
+    <dimen name="textsize">12sp</dimen>
+    <dimen name="textsize_2">16sp</dimen>
+    <dimen name="textsize_3">12sp</dimen>
+    <dimen name="ll2_width">0dp</dimen>
+    <dimen name="border_width">2dp</dimen>
+</resources>

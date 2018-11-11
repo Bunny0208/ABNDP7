@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/ll1_padding"
+    android:paddingLeft="@dimen/ll1_padding"
+    android:paddingRight="@dimen/ll1_padding"
+    android:paddingStart="@dimen/ll1_padding">
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="@dimen/article_width"
+        android:layout_height="@dimen/article_height"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="times_new_roman"
+        android:background="@drawable/border"
+        android:padding="@dimen/article_padding"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textsize"
+        tools:text="@string/list_item_section" />
+
+    <LinearLayout
+        android:layout_width="@dimen/ll2_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/ll1_padding"
+        android:layout_marginStart="@dimen/ll1_padding"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/textsize_2"
+            android:textStyle="bold"
+            tools:text="@string/list_item_title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/ll1_padding"
+        android:layout_marginStart="@dimen/ll1_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_3"
+            tools:text="@string/list_item_date" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_3"
+            tools:text="@string/list_item_author"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
